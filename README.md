@@ -1,6 +1,17 @@
-# Facebook event scraper
-copy credentail.sample.js to credential.js and add you facebook login credentail
+# Facebook Events scrapper
 
-To run ```node scrape```
+A Puppeteer script that scraps events for a (set of) given location(s)
 
-If need please change selector for facebook elements
+## Configuration
+
+Copy config.sample.js to config.js and fill the fields accordingly
+
+## Usage
+
+```shell
+node index.js
+```
+
+## Results
+
+You'll find the events in the parent directory under fb/events.json
