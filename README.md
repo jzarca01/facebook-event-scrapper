@@ -14,4 +14,4 @@ node index.js
 
 ## Results
 
-You'll find the events in the parent directory under fb/events.json
+You'll find the events in the project folder under fb/events.json
