@@ -145,7 +145,7 @@ const scrape = async () => {
     location_event_id.forEach(id => event_ids.push(id));
   });
 
-  check_directory(data_path);
+  checkDirectory(data_path);
 
   let image_not_found_events = [];
   console.log('Total events:', event_ids.length);
